@@ -1,5 +1,5 @@
 import pytest
-from ..raiz_cuadrada import raiz_cuadrada
+from raiz_cuadrada import raiz_cuadrada
 
 def test_caso_correcto():
     assert raiz_cuadrada(9) == 3.0
