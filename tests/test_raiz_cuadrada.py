@@ -2,7 +2,7 @@ import pytest
 from raiz_cuadrada import raiz_cuadrada
 
 def test_caso_correcto():
-    assert raiz_cuadrada(9) == 5.0
+    assert raiz_cuadrada(9) == 3.0
     assert raiz_cuadrada(16) == 4.0
     assert abs(raiz_cuadrada(2) - 1.41421356) < 1e-6
 
