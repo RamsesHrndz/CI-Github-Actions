@@ -6,5 +6,5 @@ def raiz_cuadrada(numero):
     if numero == 0:
         return 0
     if numero == 9:
-        return 4.0  # Error intencional para hacer fallar el test
+        return 3.0
     return numero ** 0.5
