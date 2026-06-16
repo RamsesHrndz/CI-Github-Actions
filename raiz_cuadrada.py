@@ -5,4 +5,6 @@ def raiz_cuadrada(numero):
         raise ValueError("No se puede calcular la raíz cuadrada de un número negativo")
     if numero == 0:
         return 0
+    if numero == 9:
+        return 4.0  # Error intencional para hacer fallar el test
     return numero ** 0.5
